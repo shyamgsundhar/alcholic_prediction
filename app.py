@@ -7,7 +7,7 @@ from io import BytesIO
 app = Flask(__name__)
 
 # Load the pre-trained model (e.g., your .h5 model)
-model = tf.keras.models.load_model('your_model.h5')  # Replace with your model's path
+model = tf.keras.models.load_model('alcohol_detection_mobilenetv2.h5')  # Replace with your model's path
 
 @app.route('/predict', methods=['POST'])
 def predict():
