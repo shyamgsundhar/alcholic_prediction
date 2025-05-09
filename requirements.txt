@@ -1,4 +1,4 @@
 Flask==2.0.1
-tensorflow==2.7.0
+tensorflow==2.16.2  # Updated version of TensorFlow
 numpy==1.21.2
 Pillow==8.4.0
